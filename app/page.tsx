@@ -1,12 +1,10 @@
-import About from './about/about';
+import About from './about/page';
 
 export default function Home() {
   return (
 		<main>
-			hi
-			<div
-  className="relative w-0 h-0 border-l-[15px] border-r-[15px] border-b-[26px] border-l-transparent border-r-transparent border-b-black"
-/>
+			<h1>Leia Ooi</h1> 
+			<h2>I'm a software engineer.</h2>
 		</main>
   );
 }
