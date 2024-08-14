@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import "./globals.css";
-import { inter } from "./utils/font";
+import { inter } from "../utils/font";
+// import { roboto } from './utils/font';
 
 export const metadata: Metadata = {
   title: "leiaooi",
@@ -14,7 +15,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={`${inter.className}antialiased`}>{children}</body>
+      <body className={inter.className}>{children}</body>
     </html>
   );
 }
