@@ -4,7 +4,7 @@ export default function HomePage() {
   return (
 		<main className='text-2xl flex flex-col min-h-screen justify-center text-center h-screen'>
 			<div className='mb-4'>
-				<p>Hello, I'm <span className='text-teal font-semibold'>Leia</span>.</p>
+				<p>Hello, I&apos;m <span className='text-teal font-semibold'>Leia</span>.</p>
 				<p className='text-lg'>Full stack / Frontend Web Developer</p>
 			</div>
 			<div className='flex justify-center'>
