@@ -35,6 +35,7 @@ const config: Config = {
 				coin:'#9897A9',
 				flint:'#7F7D9C',
 				teal:'#3CCF91',
+				smoke: '#F5F5F5'
 			},
 			// backgroundImage: {
 			// 	'rainbow-gradient': 'linear-gradient(45deg, #f3ec78, #af4261, #577399, #2b4f81, #0a4c6c)',

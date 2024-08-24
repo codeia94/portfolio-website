@@ -29,3 +29,7 @@ body {
 .content {
 	@apply font-extralight text-coin;
 }
+
+html {
+  scroll-behavior: smooth;
+}
