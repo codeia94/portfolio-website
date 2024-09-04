@@ -7,25 +7,29 @@ export default function HomePage() {
 
 	const [text, setText] = useState<string>('');
 	const [index, setIndex] = useState<number>(0);
-
-	const words = useMemo<string[]>(
-		() => [ 'Web Developer', 'Software Engineer', 'Front-End Developer' ],
-		[]
-		);
+	const [pause, setPause] = useState<boolean>(false);
+	const words = useMemo<string[]>(() => [ 
+		'Web Developer', 'Software Engineer', 'Front-End Developer' 
+	],[]);
 
 		useEffect(() => {
-			const interval = setInterval(() => {
-				setText((prevText) => prevText + words[index].charAt(prevText.length));
-				if (text === words[index]) {
-					setIndex((prevIndex) =>
-						prevIndex === words.length - 1 ? 0 : prevIndex + 1
-					);
-					setText("");
-				}
-			}, 150);
-	
-			return () => clearInterval(interval);
-		}, [text, index, words]);
+			if (!pause) {
+				const interval = setInterval(() => {
+					setText((prevText) => prevText + words[index].charAt(prevText.length));
+					if (text === words[index]) {
+						setPause(true);
+						setTimeout(() => {
+							setIndex((prevIndex) =>
+							prevIndex === words.length - 1 ? 0 : prevIndex + 1
+						);
+						setText("");
+						setPause(false);
+						}, 2000)
+					}
+				}, 100);
+				return () => clearInterval(interval);
+			}
+		}, [text, index, words, pause]);
 	
   return (
 		<main className='flex flex-col min-h-screen justify-center h-screen'>
