@@ -1,6 +1,6 @@
 export default function Contact () {
 	return (
-		<section className='min-h-screen h-screen flex flex-col justify-center items-center '>
+		<section id='contact' className='min-h-screen h-screen flex flex-col justify-center items-center '>
 			<div className='title'>Contact</div>
 			<div className='text-sm text-center content'>
 				<p className='pb-4'>Interested in working together? Feel free to reach out to me</p>

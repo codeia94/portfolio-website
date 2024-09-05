@@ -1,10 +1,39 @@
+import { IconHome, IconUser, IconCode, IconBriefcase, IconMail } from '@tabler/icons-react';
+
 export default function NavBar () {
 	return (
-		<nav>
-
+		<nav className='sidenav fixed right-4 top-1/3 flex flex-col justify-center bg-slate-700 p-2 bg-opacity-20 rounded-2xl'>
+			<ul className='space-y-12'>
+				<li>
+					<a href='#home'>
+						<IconHome />
+					</a>
+				</li>
+				<li>
+					<a href='#about'>
+						<IconUser />
+					</a>
+				</li>
+				<li>
+					<a href='#skills'>
+						<IconCode />
+					</a>
+				</li>
+				<li>
+					<a href='#projects'>
+						<IconBriefcase />
+					</a>
+				</li>
+				<li>
+					<a href='#contact'>
+						<IconMail />
+					</a>
+				</li>
+			</ul>
 		</nav>
 	)
 }
+
 
 
 {/* <div

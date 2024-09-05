@@ -1,6 +1,6 @@
 export default function About () {
 	return (
-		<section id='about-me'className='min-h-screen h-screen flex flex-col justify-center items-center '>
+		<section id='about'className='min-h-screen h-screen flex flex-col justify-center items-center '>
 			<h1 className='title'>About me</h1>
 			<div className='text-lg text-center content'>
 				<p className='pb-6'><span className='font-medium'>Music and coding</span> — what&apos;s the difference? They&apos;re both about using your fingers to create something extraordinary. While music produces sound that resonates with the soul, coding crafts visual experiences that captivate the eyes. For me, it&apos;s just a different instrument, and the output is no less <span>magical</span>.</p>
