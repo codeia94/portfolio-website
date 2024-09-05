@@ -35,7 +35,34 @@ const config: Config = {
 				coin:'#9897A9',
 				flint:'#7F7D9C',
 				teal:'#3CCF91',
-				smoke: '#F5F5F5'
+				smoke: '#F5F5F5',
+
+				//New color theme
+				primary: "#5866f2",
+				"primary-content": "#ffffff",
+				"primary-dark": "#293bee",
+				"primary-light": "#8791f6",
+
+				secondary: "#f25899",
+				"secondary-content": "#460520",
+				"secondary-dark": "#ee297c",
+				"secondary-light": "#f687b6",
+
+				background: "#131420",
+				foreground: "#1d1e30",
+				border: "#303350",
+
+				copy: "#fafafc",
+				"copy-light": "#cfd1e2",
+				"copy-lighter": "#8f93bc",
+
+				success: "#58f258",
+				warning: "#f2f258",
+				error: "#f25858",
+
+				"success-content": "#054605",
+				"warning-content": "#464605",
+				"error-content": "#460505"
 			},
 			backgroundImage: {
 				'rainbow-gradient': 'linear-gradient(45deg, #f3ec78, #af4261, #577399, #2b4f81, #0a4c6c)',
