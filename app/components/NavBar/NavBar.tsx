@@ -1,38 +1,42 @@
+'use client'
+
 import { IconHome, IconUser, IconCode, IconBriefcase, IconMail } from '@tabler/icons-react';
 
 export default function NavBar () {
+ 
 	return (
 		<nav className='sidenav fixed right-4 top-1/3 flex flex-col justify-center bg-slate-700 p-2 bg-opacity-20 rounded-2xl'>
 			<ul className='space-y-12'>
 				<li>
-					<a href='#home'>
-						<IconHome />
+					<a href='#home' >
+						<IconHome className='sidenav'/>
 					</a>
 				</li>
 				<li>
-					<a href='#about'>
-						<IconUser />
+					<a href='#about' >
+						<IconUser className='sidenav'/>
 					</a>
 				</li>
 				<li>
-					<a href='#skills'>
-						<IconCode />
+					<a href='#skills' >
+						<IconCode className='sidenav'/>
 					</a>
 				</li>
 				<li>
-					<a href='#projects'>
-						<IconBriefcase />
+					<a href='#projects' >
+						<IconBriefcase className='sidenav'/>
 					</a>
 				</li>
 				<li>
-					<a href='#contact'>
-						<IconMail />
+					<a href='#contact' >
+						<IconMail className='sidenav'/>
 					</a>
 				</li>
 			</ul>
 		</nav>
 	)
 }
+
 
 
 
