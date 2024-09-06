@@ -23,7 +23,7 @@ body {
 
 
 .title {
-	@apply text-2xl font-bold mb-8 uppercase font-roboto;
+	@apply text-2xl font-bold mb-8;
 }
 
 .content {
