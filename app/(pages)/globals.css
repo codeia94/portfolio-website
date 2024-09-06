@@ -23,11 +23,11 @@ body {
 
 
 .title {
-	@apply text-2xl font-bold mb-8;
+	@apply text-2xl font-semibold mb-8 select-none;
 }
 
 .content {
-	@apply font-extralight text-coin;
+	@apply font-light text-coin;
 }
 
 .sidenav {
@@ -37,6 +37,16 @@ body {
 .contact-icons {
 	width: 34px;
 	height: 34px;
+}
+
+.techstacks-icon {
+	width: 60px;
+	height: 60px;
+	@apply stroke-flint hover:stroke-teal hover:scale-110 transition-all cursor-pointer
+}
+
+.sidenav-text {
+	@apply hidden group-hover:block mr-4 text-teal text-sm font-medium
 }
 
 html {

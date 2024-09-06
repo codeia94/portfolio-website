@@ -32,7 +32,7 @@ export default function HomePage() {
 		}, [text, index, words, pause]);
 	
   return (
-		<main id='home' className='flex flex-col min-h-screen justify-center h-screen'>
+		<main id='home' className='flex flex-col min-h-screen justify-center h-screen select-none'>
 			<div className='mb-4'>
 				<p className='text-coin'>Hi, my name is</p>
 				<div>
@@ -45,13 +45,13 @@ export default function HomePage() {
 				<button>
 					<a href='/leia-resume.pdf' download type="button" className='flex items-center justify-center h-9 w-32 rounded-full bg-teal text-galaxyblack p-[1.5px] group relative overflow-hidden border-2 border-teal hover:text-teal'>
 						<div className='absolute inset-0 bg-galaxyblack h-full w-full flex items-center justify-center transform scale-x-0 group-hover:scale-x-100 transition-transform duration-300 ease-linear origin-left'></div>
-						<span className='relative z-10 text-base '>Résumé</span>
+						<span className='relative z-10 font-semibold '>Résumé</span>
 					</a>
 				</button>
 				<button >
-					<Link href='#about-me' className='flex items-center justify-center h-9 w-32 rounded-full bg-galaxyblack p-[1.5px] group relative overflow-hidden border-2 border-teal hover:text-teal'>
+					<Link href='#about' className='flex items-center justify-center h-9 w-32 rounded-full bg-galaxyblack p-[1.5px] group relative overflow-hidden border-2 border-teal hover:text-teal'>
 						<div className='absolute inset-0 bg-galaxyblack h-full w-full flex items-center justify-center'></div>
-						<span className='relative z-10 text-base '>About Me</span>
+						<span className='relative z-10 font-medium'>About Me</span>
 					</Link>
 				</button>
 			</div>

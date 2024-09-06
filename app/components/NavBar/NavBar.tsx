@@ -5,31 +5,36 @@ import { IconHome, IconUser, IconCode, IconBriefcase, IconMail } from '@tabler/i
 export default function NavBar () {
  
 	return (
-		<nav className='sidenav fixed right-4 top-1/3 flex flex-col justify-center bg-slate-700 p-2 bg-opacity-20 rounded-2xl'>
+		<nav className='sidenav fixed right-4 top-1/3 flex flex-col justify-center bg-slate-700 p-2 bg-opacity-20 rounded-2xl w-10'>
 			<ul className='space-y-12'>
-				<li>
-					<a href='#home' >
+				<li className='group flex flex-row-reverse items-center'>
+					<a href='#home'>
 						<IconHome className='sidenav'/>
 					</a>
+					<span className='sidenav-text'>Home</span>
 				</li>
-				<li>
-					<a href='#about' >
+				<li className='group flex flex-row-reverse items-center'>
+					<a href='#about' className='flex flex-row-reverse'>
 						<IconUser className='sidenav'/>
+						<span className='sidenav-text'>About</span>
 					</a>
 				</li>
-				<li>
-					<a href='#skills' >
+				<li className='group flex flex-row-reverse items-center'>
+					<a href='#skills' className='flex flex-row-reverse'>
 						<IconCode className='sidenav'/>
+						<span className='sidenav-text'>Skills</span>
 					</a>
 				</li>
-				<li>
-					<a href='#projects' >
+				<li className='group flex flex-row-reverse items-center'>
+					<a href='#projects' className='flex flex-row-reverse'>
 						<IconBriefcase className='sidenav'/>
+						<span className='sidenav-text'>Projects</span>
 					</a>
 				</li>
-				<li>
-					<a href='#contact' >
+				<li className='group flex flex-row-reverse items-center'>
+					<a href='#contact' className='flex flex-row-reverse'>
 						<IconMail className='sidenav'/>
+						<span className='sidenav-text'>Contact</span>
 					</a>
 				</li>
 			</ul>

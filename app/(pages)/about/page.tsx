@@ -1,7 +1,12 @@
+import { IconMusicCode } from '@tabler/icons-react';
+
 export default function About () {
 	return (
 		<section id='about'className='min-h-screen h-screen flex flex-col justify-center items-center '>
-			<h1 className='title'>About me</h1>
+			<div className='flex flex-row'>
+				<h1 className='title mr-6'>About me</h1>		
+				<IconMusicCode className='animate-bounce'/>	
+			</div>
 			<div className='text-lg text-center content'>
 				<p className='pb-6'><span className='font-medium'>Music and coding</span> — what&apos;s the difference? They&apos;re both about using your fingers to create something extraordinary. While music produces sound that resonates with the soul, coding crafts visual experiences that captivate the eyes. For me, it&apos;s just a different instrument, and the output is no less <span>magical</span>.</p>
 				<p className='pb-6'>After a decade in the music industry, I discovered a new passion in software engineering when I stumbled upon the magical world of web development. I decided to dive into 
