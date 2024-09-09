@@ -40,6 +40,8 @@ const config: Config = {
 				flint:'#7F7D9C',
 				teal:'#3CCF91',
 				smoke: '#F5F5F5',
+				greenpea: '#1a5239',
+				coralblue: '#3cc7cf87',
 
 				//#3 color theme
 				beautybush: '#EEBBC3', //btn & highlight
