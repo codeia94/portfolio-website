@@ -5,34 +5,35 @@ import { IconHome, IconUser, IconCode, IconBriefcase, IconMail } from '@tabler/i
 export default function NavBar () {
  
 	return (
-		<nav className='sidenav fixed right-4 top-1/3 flex flex-col justify-center bg-slate-700 p-2 bg-opacity-20 rounded-2xl w-10'>
-			<ul className='space-y-12'>
-				<li className='group flex flex-row-reverse items-center'>
+		// <nav className='sidenav fixed right-2 top-1/3 flex flex-col justify-center bg-slate-700 p-2 bg-opacity-20 rounded-2xl w-10'>
+		<nav className='bottom-0 fixed bg-slate-700 p-2 w-screen'>
+			<ul className='flex flex-row justify-around'>
+				<li className='group flex flex-col-reverse'>
 					<a href='#home'>
 						<IconHome className='sidenav'/>
 					</a>
 					<span className='sidenav-text'>Home</span>
 				</li>
-				<li className='group flex flex-row-reverse items-center'>
-					<a href='#about' className='flex flex-row-reverse'>
+				<li className='group flex items-center'>
+					<a href='#about' className='flex'>
 						<IconUser className='sidenav'/>
 						<span className='sidenav-text'>About</span>
 					</a>
 				</li>
-				<li className='group flex flex-row-reverse items-center'>
-					<a href='#skills' className='flex flex-row-reverse'>
+				<li className='group flex items-center'>
+					<a href='#skills' className='flex'>
 						<IconCode className='sidenav'/>
 						<span className='sidenav-text'>Skills</span>
 					</a>
 				</li>
-				<li className='group flex flex-row-reverse items-center'>
-					<a href='#projects' className='flex flex-row-reverse'>
+				<li className='group flex items-center'>
+					<a href='#projects' className='flex'>
 						<IconBriefcase className='sidenav'/>
 						<span className='sidenav-text'>Projects</span>
 					</a>
 				</li>
-				<li className='group flex flex-row-reverse items-center'>
-					<a href='#contact' className='flex flex-row-reverse'>
+				<li className='group flex items-center'>
+					<a href='#contact' className='flex'>
 						<IconMail className='sidenav'/>
 						<span className='sidenav-text'>Contact</span>
 					</a>

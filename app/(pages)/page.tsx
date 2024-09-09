@@ -10,8 +10,13 @@ export default function Home() {
   return (
 		<>
 			<NavBar />
-			<main className='px-6'>
+			<main className='mx-4'>
 				<HomePage />
+				<span className="flex items-center">
+					<span className="h-px flex-1 bg-flint"></span>
+					<span className="shrink-0 px-6">Scroll Down</span>
+					<span className="h-px flex-1 bg-flint"></span>
+				</span>
 				<About />
 				<Skills />
 				<Projects />

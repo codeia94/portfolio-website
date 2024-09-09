@@ -19,6 +19,7 @@
 body {
   color: rgb(var(--foreground-rgb));
   background-color: #2a292b;
+	/* background-color: #232946 */
 }
 
 
@@ -30,8 +31,20 @@ body {
 	@apply font-light text-coin;
 }
 
+.content-text-size {
+	@apply xxs:text-base
+}
+
+.content-sub-text {
+	@apply xxs:text-sm font-mono text-spindle bg-bluebell bg-opacity-10 rounded-md px-1 py-1
+}
+
 .sidenav {
 	@apply stroke-flint hover:stroke-teal;
+}
+
+.sidenav-text {
+	@apply hidden hover:block text-teal text-sm font-medium
 }
 
 .contact-icons {
@@ -40,15 +53,37 @@ body {
 }
 
 .techstacks-icon {
-	width: 60px;
-	height: 60px;
-	@apply stroke-flint hover:stroke-teal hover:scale-110 transition-all cursor-pointer
+	width: 50px;
+	height: 50px;
+	@apply stroke-flint group-hover:stroke-teal hover:scale-110 transition-all cursor-pointer
 }
 
-.sidenav-text {
-	@apply hidden group-hover:block mr-4 text-teal text-sm font-medium
+.techText {
+	font-size: 10px;
+	@apply text-flint font-semibold;
+}
+
+.bounce-logo {
+	animation: ltr 3s linear infinite;
+	position: absolute;
+	/* left: -30px; */
 }
 
 html {
-  scroll-behavior: smooth;
+	scroll-behavior: smooth;
+}
+
+@keyframes ltr {
+	0% {
+		left: 0;
+		top: 0;
+	}
+	50% {
+		left: 50px;
+		top: 50px;
+	}
+	100% {
+		left: 100px;
+		top: 0px;
+	}
 }

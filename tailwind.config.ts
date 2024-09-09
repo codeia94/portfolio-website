@@ -20,6 +20,10 @@ const config: Config = {
 			'3xl': '1920px',  // 1920px and larger
 		},
     extend: {
+			height: {
+				'90screen': '90vh',
+			},
+
 			fontFamily: {
 				'roboto': ['Roboto', 'sans-serif'],
 			},
@@ -36,6 +40,14 @@ const config: Config = {
 				flint:'#7F7D9C',
 				teal:'#3CCF91',
 				smoke: '#F5F5F5',
+
+				//#3 color theme
+				beautybush: '#EEBBC3', //btn & highlight
+				portgore: '#232946', //background
+				bluebell: '#577399', //seconday background
+				spindle: '#B8C1EC', //secondary content
+
+
 
 				//#1 color theme
 				// primary: "#5866f2",
@@ -79,10 +91,10 @@ const config: Config = {
 				//'secondary-content': '#B8C1EC',
 
 			},
-			backgroundImage: {
-				'rainbow-gradient': 'linear-gradient(45deg, #f3ec78, #af4261, #577399, #2b4f81, #0a4c6c)',
-				'text-gradient': 'linear-gradient(45deg, #f3ec78, #af4261, #577399, #2b4f81, #0a4c6c)',
-			},
+			// backgroundImage: {
+			// 	'rainbow-gradient': 'linear-gradient(45deg, #f3ec78, #af4261, #577399, #2b4f81, #0a4c6c)',
+			// 	'text-gradient': 'linear-gradient(45deg, #f3ec78, #af4261, #577399, #2b4f81, #0a4c6c)',
+			// },
     },
   },
   plugins: [],

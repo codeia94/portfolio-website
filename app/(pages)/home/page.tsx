@@ -32,7 +32,7 @@ export default function HomePage() {
 		}, [text, index, words, pause]);
 	
   return (
-		<main id='home' className='flex flex-col min-h-screen justify-center h-screen select-none'>
+		<header id='home' className='flex flex-col h-90screen justify-center select-none'>
 			<div className='mb-4'>
 				<p className='text-coin'>Hi, my name is</p>
 				<div>
@@ -56,7 +56,7 @@ export default function HomePage() {
 				</button>
 			</div>
 
-		</main>
+		</header>
   );
 }
 
