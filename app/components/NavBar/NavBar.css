@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 .sidenav {
-	@apply stroke-flint hover:stroke-teal;
+	@apply stroke-flint hover:stroke-teal xs:w-8 xs:h-8;
 }
 
 .sidenav-text {
@@ -11,9 +11,18 @@
 }
 
 .sidenav-xxs {
-	@apply bottom-0 fixed bg-slate-700 p-2 w-screen z-10
+	@apply bottom-0 fixed bg-galaxyblack bg-opacity-85 p-2 w-screen z-10
 }
 
-.sidenav-xs {
-	@apply fixed right-2 top-1/3 flex flex-col justify-center bg-slate-700 p-2 bg-opacity-20 rounded-2xl w-10
+/* .sidenav-sm {
+	@apply fixed right-2 top-1/3 flex flex-col justify-center p-2 bg-opacity-20 rounded-2xl w-10
+} */
+
+@media (min-width: 768px) {
+	.sidenav-sm {
+		@apply fixed right-2 h-full flex flex-col justify-center p-2 bg-opacity-20 rounded-2xl w-10
+	}
+	.sidenav-list {
+		@apply flex flex-col items-center justify-center gap-20
+	}
 }

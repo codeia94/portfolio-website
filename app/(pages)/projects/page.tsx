@@ -6,7 +6,7 @@ export default function Project () {
 		<section id='projects' className='min-h-screen flex flex-col justify-center items-center gap-y-4 '>
 			<div className='title'>Projects</div>
 			{projects.map((project, index) => (
-				<article key={index} className='article-card hover:shadow-coralblue'>
+				<article key={index} className='article-card article-card-border'>
 					<img  
 						src={project.project_image} 
 						className='h-56 w-full object-cover'
