@@ -32,20 +32,14 @@ body {
 }
 
 .content-text-size {
-	@apply xxs:text-base
+	@apply xxs:text-sm
 }
 
 .content-sub-text {
 	@apply xxs:text-sm font-mono text-spindle bg-bluebell bg-opacity-10 rounded-md px-1 py-1
 }
 
-.sidenav {
-	@apply stroke-flint hover:stroke-teal;
-}
 
-.sidenav-text {
-	@apply hidden hover:block text-teal text-sm font-medium
-}
 
 .contact-icons {
 	width: 34px;
@@ -85,6 +79,11 @@ body {
 .article-card {
 	@apply overflow-hidden rounded-lg shadow transition hover:shadow-lg w-11/12
 }
+
+.article-repo {
+	@apply flex items-center border border-bluebell rounded-lg px-2 font-medium gap-1 hover:bg-spindle hover:bg-opacity-35;
+}
+
 
 html {
 	scroll-behavior: smooth;

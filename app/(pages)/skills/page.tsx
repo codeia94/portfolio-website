@@ -28,7 +28,7 @@ export default function Skills () {
 	return (
 		<section id='skills'className='flex flex-col items-center justify-center min-h-screen'>
 			<h1 className='title'>Tech Stacks</h1>
-			<div className='flex w-full justify-between'>
+			<div className='flex w-full justify-evenly'>
 				<div className='flex flex-col '>
 					<h2 className='text-center content-sub-text'>Frontend</h2>
 					<div>

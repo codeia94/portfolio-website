@@ -1,12 +1,13 @@
 'use client'
 
 import { IconHome, IconUser, IconCode, IconBriefcase, IconMail } from '@tabler/icons-react';
+import '../NavBar/NavBar.css';
 
 export default function NavBar () {
  
 	return (
 		// <nav className='sidenav fixed right-2 top-1/3 flex flex-col justify-center bg-slate-700 p-2 bg-opacity-20 rounded-2xl w-10'>
-		<nav className='bottom-0 fixed bg-slate-700 p-2 w-screen'>
+		<nav className='xxs: sidenav-xxs xs:sidenav-xs'>
 			<ul className='flex flex-row justify-around'>
 				<li className='group flex flex-col-reverse'>
 					<a href='#home'>

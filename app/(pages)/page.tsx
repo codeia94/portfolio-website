@@ -10,7 +10,7 @@ export default function Home() {
   return (
 		<>
 			<NavBar />
-			<main className='mx-4'>
+			<main className='xxs:mx-4'>
 				<HomePage />
 				<span className="flex items-center">
 					<span className="h-px flex-1 bg-flint"></span>
