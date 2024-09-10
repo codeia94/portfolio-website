@@ -93,6 +93,11 @@ body {
   background-position: -5px -5px
 } */
 
+.tooltip-hover {
+	@apply bg-galaxyblack bg-opacity-85 text-white text-xs font-medium rounded-t-md px-1 py-1;
+}
+
+
 html {
 	scroll-behavior: smooth;
 }

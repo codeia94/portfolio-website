@@ -1,7 +1,9 @@
 'use client'
 
 import { IconHome, IconUser, IconCode, IconBriefcase, IconMail } from '@tabler/icons-react';
+import { Tooltip } from '@nextui-org/tooltip';
 import './NavBar.css';
+
 
 export default function NavBar () {
  
@@ -10,34 +12,44 @@ export default function NavBar () {
 		<nav className='sidenav-xxs sidenav-sm'>
 			<ul className='flex flex-row justify-around sidenav-list'>
 				<li className='group flex flex-col-reverse'>
-					<a href='#home'>
-						<IconHome className='sidenav'/>
-					</a>
+					<Tooltip content='Home' placement='top' className='tooltip-hover'>
+						<a href='#home'>
+							<IconHome className='sidenav'/>
+						</a>
+					</Tooltip>
 					<span className='sidenav-text'>Home</span>
 				</li>
 				<li className='group flex items-center'>
-					<a href='#about' className='flex'>
-						<IconUser className='sidenav'/>
-						<span className='sidenav-text'>About</span>
-					</a>
+					<Tooltip content='About' placement='top' className='tooltip-hover'>
+						<a href='#about' className='flex'>
+							<IconUser className='sidenav'/>
+							<span className='sidenav-text'>About</span>
+						</a>
+					</Tooltip>
 				</li>
 				<li className='group flex items-center'>
-					<a href='#skills' className='flex'>
-						<IconCode className='sidenav'/>
-						<span className='sidenav-text'>Skills</span>
-					</a>
+					<Tooltip content='Skills' placement='top' className='tooltip-hover'>
+						<a href='#skills' className='flex'>
+							<IconCode className='sidenav'/>
+							<span className='sidenav-text'>Skills</span>
+						</a>
+					</Tooltip>
 				</li>
 				<li className='group flex items-center'>
-					<a href='#projects' className='flex'>
-						<IconBriefcase className='sidenav'/>
-						<span className='sidenav-text'>Projects</span>
-					</a>
+					<Tooltip content='Projects' placement='top' className='tooltip-hover'>
+						<a href='#projects' className='flex'>
+							<IconBriefcase className='sidenav'/>
+							<span className='sidenav-text'>Projects</span>
+						</a>
+					</Tooltip>
 				</li>
 				<li className='group flex items-center'>
-					<a href='#contact' className='flex'>
-						<IconMail className='sidenav'/>
-						<span className='sidenav-text'>Contact</span>
-					</a>
+					<Tooltip content='Contact' placement='top' className='tooltip-hover'>
+						<a href='#contact' className='flex'>
+							<IconMail className='sidenav'/>
+							<span className='sidenav-text'>Contact</span>
+						</a>
+					</Tooltip>
 				</li>
 			</ul>
 		</nav>
