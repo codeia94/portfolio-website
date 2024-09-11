@@ -28,10 +28,10 @@ export default function Skills () {
 	return (
 		<section id='skills'className='flex flex-col items-center justify-center min-h-screen'>
 			<h1 className='title'>Tech Stacks</h1>
-			<div className='flex w-full justify-evenly'>
-				<div className='flex flex-col '>
-					<h2 className='text-center content-sub-text'>Frontend</h2>
-					<div>
+			<div className='flex w-full justify-evenly md:flex-col md:w-3/4'>
+				<div className='flex flex-col md:flex-row md:items-center'>
+					<h2 className='text-center content-sub-text md:w-32 md:h-14 md:text-xl'>Frontend</h2>
+					<div className='md:flex-row md:flex md:gap-6'>
 						{frontEndStacks.map(({ icon: TechStackIcon, name }, index) => (
 							<div className='group flex flex-col items-center my-4'>
 								<TechStackIcon stroke={1.5} className='techstacks-icon'/>
@@ -40,9 +40,9 @@ export default function Skills () {
 						))}
 					</div>
 				</div>
-				<div className='flex flex-col'>
-					<h2 className='text-center content-sub-text'>Backend</h2>
-					<div>
+				<div className='flex flex-col md:flex-row md:items-center'>
+					<h2 className='text-center content-sub-text md:w-32 md:h-14 md:text-xl'>Backend</h2>
+					<div className='md:flex-row md:flex md:gap-6'>
 						{backEndStacks.map(({ icon: TechStackIcon, name}, index) => (
 							<div className='group flex flex-col items-center my-4'>
 								<TechStackIcon stroke={1.5} className='techstacks-icon' />
@@ -51,9 +51,9 @@ export default function Skills () {
 						))}
 					</div>
 				</div>
-				<div className='flex flex-col'>
-					<h2 className='text-center content-sub-text'>Database</h2>
-					<div>
+				<div className='flex flex-col md:flex-row md:items-center'>
+					<h2 className='text-center content-sub-text md:w-32 md:h-14 md:text-xl'>Database</h2>
+					<div className='md:flex-row md:flex md:gap-6'>
 						{databaseStacks.map(({ icon: TechStackIcon, name }, index) => (
 							<div className='group flex flex-col items-center my-4'>
 								<TechStackIcon stroke={1.5} className='techstacks-icon' />
@@ -62,9 +62,9 @@ export default function Skills () {
 						))}
 					</div>
 				</div>
-				<div className='flex flex-col'>
-					<h2 className='text-center content-sub-text'>Tools</h2>
-					<div>
+				<div className='flex flex-col md:flex-row md:items-center'>
+					<h2 className='text-center content-sub-text md:w-32 md:h-14 md:text-xl'>Tools</h2>
+					<div className='md:flex-row md:flex md:gap-6'>
 						{toolStacks.map(({ icon: TechStackIcon, name}, index) => (
 							<div className='group flex flex-col items-center my-4'>
 								<TechStackIcon stroke={1.5} className='techstacks-icon' />

@@ -49,6 +49,7 @@ body {
 	@apply stroke-flint group-hover:stroke-teal hover:scale-110 transition-all cursor-pointer
 }
 
+
 .techText {
 	font-size: 10px;
 	@apply text-flint font-semibold;
@@ -90,6 +91,10 @@ body {
 	.article-desc {
 		@apply line-clamp-6 overflow-auto
 	}
+	.techstacks-icon {
+		width: 70px;
+		height: 70px;
+	}
 }
 
 .article-card-border {
@@ -99,6 +104,19 @@ body {
 .article-repo {
 	@apply flex items-center border border-bluebell rounded-lg px-2 font-medium gap-1 hover:bg-spindle hover:bg-opacity-35;
 }
+
+@media (min-width: 1024px) {
+	.skill-container {
+		@apply flex-row;
+	}
+	.skill-flex-direction {
+		@apply flex-row gap-2;
+	}
+	.skill-class {
+		@apply flex flex-row
+	}
+}
+
 
 /* .home-bg {
 	width: 100%;
