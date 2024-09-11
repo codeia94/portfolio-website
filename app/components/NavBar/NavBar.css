@@ -20,7 +20,7 @@
 
 @media (min-width: 768px) {
 	.sidenav-sm {
-		@apply fixed right-2 h-full flex flex-col justify-center p-2 bg-opacity-20 rounded-2xl w-10
+		@apply fixed right-4 h-full flex flex-col justify-center p-2 bg-opacity-20 rounded-2xl w-10
 	}
 	.sidenav-list {
 		@apply flex flex-col items-center justify-center gap-20

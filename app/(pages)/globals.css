@@ -74,7 +74,22 @@ body {
 }
 
 .article-card {
-	@apply overflow-hidden rounded-lg transition w-11/12
+	@apply overflow-hidden rounded-lg transition w-11/12 sm:w-5/6;
+}
+
+
+@media (min-width: 1024px) {
+	.article-card-md {
+		@apply flex flex-row h-80;
+	}
+	.article-desc-tech {
+		@apply flex flex-col h-full justify-around;
+	}
+
+	/* TODO: Fix the line-clamp */
+	.article-desc {
+		@apply line-clamp-6 overflow-auto
+	}
 }
 
 .article-card-border {
