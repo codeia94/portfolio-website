@@ -5,7 +5,7 @@ import { Tooltip } from '@nextui-org/tooltip';
 export default function Contact () {
 	return (
 		<section id='contact' className='min-h-screen h-screen flex flex-col justify-center items-center '>
-			<div className='title'>Let's connect</div>
+			<div className='title'>Let&apos;s connect</div>
 			<div className='text-sm text-center content'>
 				<p className='mb-12'>Interested in working together? Feel free to reach out to me</p>
 			</div>

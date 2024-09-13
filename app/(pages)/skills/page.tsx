@@ -33,7 +33,7 @@ export default function Skills () {
 					<h2 className='text-center content-sub-text md:w-32 md:h-14 md:text-xl'>Frontend</h2>
 					<div className='md:flex-row md:flex md:gap-6'>
 						{frontEndStacks.map(({ icon: TechStackIcon, name }, index) => (
-							<div className='group flex flex-col items-center my-4'>
+							<div key={index} className='group flex flex-col items-center my-4'>
 								<TechStackIcon stroke={1.5} className='techstacks-icon'/>
 								<p className='techText'>{name}</p>
 							</div>
@@ -44,7 +44,7 @@ export default function Skills () {
 					<h2 className='text-center content-sub-text md:w-32 md:h-14 md:text-xl'>Backend</h2>
 					<div className='md:flex-row md:flex md:gap-6'>
 						{backEndStacks.map(({ icon: TechStackIcon, name}, index) => (
-							<div className='group flex flex-col items-center my-4'>
+							<div key={index} className='group flex flex-col items-center my-4'>
 								<TechStackIcon stroke={1.5} className='techstacks-icon' />
 								<p className='techText'>{name}</p>
 							</div>
@@ -55,7 +55,7 @@ export default function Skills () {
 					<h2 className='text-center content-sub-text md:w-32 md:h-14 md:text-xl'>Database</h2>
 					<div className='md:flex-row md:flex md:gap-6'>
 						{databaseStacks.map(({ icon: TechStackIcon, name }, index) => (
-							<div className='group flex flex-col items-center my-4'>
+							<div key={index} className='group flex flex-col items-center my-4'>
 								<TechStackIcon stroke={1.5} className='techstacks-icon' />
 								<p className='techText'>{name}</p>
 							</div>
@@ -66,7 +66,7 @@ export default function Skills () {
 					<h2 className='text-center content-sub-text md:w-32 md:h-14 md:text-xl'>Tools</h2>
 					<div className='md:flex-row md:flex md:gap-6'>
 						{toolStacks.map(({ icon: TechStackIcon, name}, index) => (
-							<div className='group flex flex-col items-center my-4'>
+							<div key={index} className='group flex flex-col items-center my-4'>
 								<TechStackIcon stroke={1.5} className='techstacks-icon' />
 								<p className='techText'>{name}</p>
 							</div>

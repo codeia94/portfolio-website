@@ -1,5 +1,6 @@
 import {projects} from '../../data/projects';
 import { IconArrowUpRight, IconCode } from '@tabler/icons-react';
+import Image from 'next/image';
 
 export default function Project () {
 	return (
@@ -8,7 +9,7 @@ export default function Project () {
 			{projects.map((project, index) => (
 				<article key={index} className='article-card article-card-border article-card-md'>
 					<div className='md:flex-1'>
-						<img  
+						<Image  
 							className='h-56 w-full object-cover md:h-full'
 							src={project.project_image} 
 						/>
