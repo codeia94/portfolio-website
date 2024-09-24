@@ -9,13 +9,16 @@ export const projects = [
 		github_client: 'https://github.com/codeia94/snowcast-client-capstone',
 		github_server: 'https://github.com/codeia94/snowcast-server-capstone',
 	},
-	// {
-	// 	id: 2,
-	// 	name: 'InStock',
-	// 	description: '',
-	// 	project_image:'',
-	// 	skills: ['Node.js', 'Express', 'API', 'HTML & SCSS', 'JavaScript', 'RESTful API'],
-	// },
+	{
+		id: 2,
+		name: 'InStock',
+		description: 'For Instock project, I collaborated with three developers as part of my cohort. We used Jira to distribute tasks based on mockups provided in Figma, ensuring everyone had a clear focus. We also utilized Gitflow, which helped us keep our code organized and made working together on features much smoother and more manageable.',
+		project_image:'/images/projects/instock.png',
+		skills: ['Node.js', 'Express', 'API', 'HTML & SCSS', 'JavaScript', 'RESTful API', 'MySql', 'AWS', 'Gitflow'],
+		link: 'https://codeia94.github.io/instock-client/',
+		github_client: 'https://github.com/codeia94/instock-client',
+		github_server: 'https://github.com/codeia94/instock-server-g7',
+	},
 	// {
 	// 	id: 3,
 	// 	name: 'BrainFlix',

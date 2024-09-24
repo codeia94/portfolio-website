@@ -30,7 +30,7 @@ export default function Skills () {
 			<h1 className='title'>Tech Stacks</h1>
 			<div className='flex w-full justify-evenly md:flex-col md:w-3/4'>
 				<div className='flex flex-col md:flex-row md:items-center'>
-					<h2 className='text-center content-sub-text md:w-32 md:h-14 md:text-xl'>Frontend</h2>
+					<h2 className='text-center content-sub-text md:w-32 md:h-14 xs:text-lg sm:text-2xl'>Frontend</h2>
 					<div className='md:flex-row md:flex md:gap-6'>
 						{frontEndStacks.map(({ icon: TechStackIcon, name }, index) => (
 							<div key={index} className='group flex flex-col items-center my-4'>
@@ -41,7 +41,7 @@ export default function Skills () {
 					</div>
 				</div>
 				<div className='flex flex-col md:flex-row md:items-center'>
-					<h2 className='text-center content-sub-text md:w-32 md:h-14 md:text-xl'>Backend</h2>
+					<h2 className='text-center content-sub-text md:w-32 md:h-14 xs:text-lg sm:text-2xl'>Backend</h2>
 					<div className='md:flex-row md:flex md:gap-6'>
 						{backEndStacks.map(({ icon: TechStackIcon, name}, index) => (
 							<div key={index} className='group flex flex-col items-center my-4'>
@@ -52,7 +52,7 @@ export default function Skills () {
 					</div>
 				</div>
 				<div className='flex flex-col md:flex-row md:items-center'>
-					<h2 className='text-center content-sub-text md:w-32 md:h-14 md:text-xl'>Database</h2>
+					<h2 className='text-center content-sub-text md:w-32 md:h-14 xs:text-lg sm:text-2xl'>Database</h2>
 					<div className='md:flex-row md:flex md:gap-6'>
 						{databaseStacks.map(({ icon: TechStackIcon, name }, index) => (
 							<div key={index} className='group flex flex-col items-center my-4'>
@@ -63,7 +63,7 @@ export default function Skills () {
 					</div>
 				</div>
 				<div className='flex flex-col md:flex-row md:items-center'>
-					<h2 className='text-center content-sub-text md:w-32 md:h-14 md:text-xl'>Tools</h2>
+					<h2 className='text-center content-sub-text md:w-32 md:h-14 xs:text-lg sm:text-2xl'>Tools</h2>
 					<div className='md:flex-row md:flex md:gap-6'>
 						{toolStacks.map(({ icon: TechStackIcon, name}, index) => (
 							<div key={index} className='group flex flex-col items-center my-4'>

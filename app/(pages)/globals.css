@@ -23,14 +23,14 @@ body {
 }
 
 .title {
-	@apply text-2xl xs:text-3xl sm:text-4xl font-semibold mb-6 select-none;
+	@apply text-2xl xs:text-3xl sm:text-4xl font-semibold mb-6 select-none md:text-9xl;
 }
 
-@media (min-width: 1024px) {
+/* @media (min-width: 1024px) {
 	.title-about {
 		@apply text-6xl;
 	}	
-}
+} */
 
 .content {
 	@apply font-light text-coin;
@@ -84,6 +84,23 @@ body {
 	@apply overflow-hidden rounded-lg transition w-11/12 sm:w-5/6;
 }
 
+.contact-text {
+	@apply sm:text-xl md:text-2xl;
+}
+
+@media (min-width: 768px) {
+	.about-content {
+		width: 40rem;
+	}
+	.techstacks-icon {
+		width: 65px;
+		height: 65px;
+	}
+	.contact-icons {
+		width: 45px;
+		height: 45px;
+	}
+}
 
 @media (min-width: 1024px) {
 	.article-card-md {
@@ -101,6 +118,19 @@ body {
 		width: 70px;
 		height: 70px;
 	}
+	.skill-container {
+		@apply flex-row;
+	}
+	.skill-flex-direction {
+		@apply flex-row gap-2;
+	}
+	.skill-class {
+		@apply flex flex-row
+	}
+	.contact-icons {
+		width: 70px;
+		height: 70px;
+	}
 }
 
 .article-card-border {
@@ -111,17 +141,6 @@ body {
 	@apply flex items-center border border-bluebell rounded-lg px-2 font-medium gap-1 hover:bg-spindle hover:bg-opacity-35;
 }
 
-@media (min-width: 1024px) {
-	.skill-container {
-		@apply flex-row;
-	}
-	.skill-flex-direction {
-		@apply flex-row gap-2;
-	}
-	.skill-class {
-		@apply flex flex-row
-	}
-}
 
 
 /* .home-bg {

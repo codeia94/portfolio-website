@@ -7,7 +7,7 @@ export default function Contact () {
 		<section id='contact' className='min-h-screen h-screen flex flex-col justify-center items-center '>
 			<div className='title'>Let&apos;s connect</div>
 			<div className='text-sm text-center content'>
-				<p className='mb-12'>Interested in working together? Feel free to reach out to me</p>
+				<p className='mb-12 contact-text'>Interested in working together? Feel free to reach out to me</p>
 			</div>
 			<div className='flex space-x-6'>	
 				<Tooltip content='GitHub' placement='top'>
