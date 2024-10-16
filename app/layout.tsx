@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import "./globals.css";
-import { inter } from "../utils/font";
-import { montserrat } from "../utils/font";
+import { inter } from "./utils/font";
+import { montserrat } from "./utils/font";
 // import { roboto } from './utils/font';
 
 export const metadata: Metadata = {

@@ -1,10 +1,10 @@
-import HomePage from './home/page';
-import About from './about/page';
-import Skills from './skills/page';
-import Projects from './projects/page';
-import Contact from './contact/page';
-import NavBar from '../components/NavBar/NavBar';
-import Footer from '../components/footer';
+import HomePage from './components/home/page';
+import About from './components/about/page';
+import Skills from './components/skills/page';
+import Projects from './components/projects/page';
+import Contact from './components/contact/page';
+import NavBar from './components/NavBar/NavBar';
+import Footer from './components/footer';
 
 export default function Home() {
   return (
