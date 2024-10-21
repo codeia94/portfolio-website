@@ -14,7 +14,7 @@ export default function About () {
 					<a href='https://www.theodinproject.com/' target='_blank'className='text-white font-normal hover:text-teal inline-flex'>The Odin Project 
 						<IconArrowUpRight className='w-4' /> 
 					</a>
-					and have recently finishied my <span className='text-teal'>Software Engineer Diploma</span> at <span className='text-slate-50'>BrainStation</span>.
+					and have recently finished my <span className='text-teal'>Software Engineer Diploma</span> at <span className='text-slate-50'>BrainStation</span>.
 				</p>
 				<p>When I&apos;m not at my computer, I like to spend my time with my husband and
 					<span className='group relative text-teal font-light'>
