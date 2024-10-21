@@ -49,6 +49,7 @@ const config: Config = {
 				portgore: '#232946', //background
 				bluebell: '#577399', //seconday background
 				spindle: '#B8C1EC', //secondary content
+				snow: '#F5FEFD',
 
 
 
