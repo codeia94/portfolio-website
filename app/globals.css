@@ -41,7 +41,7 @@ body {
 }
 
 .content-sub-text {
-	@apply xxs:text-sm font-mono text-spindle bg-bluebell bg-opacity-10 rounded-md px-1 py-1
+	@apply xxs:text-sm font-mono text-spindle bg-bluebell bg-opacity-10 rounded-md px-1 py-1 flex items-center justify-center
 }
 
 .contact-icons {
@@ -134,7 +134,7 @@ body {
 }
 
 .article-card-border {
-	@apply border-2 border-bluebell rounded-lg
+	@apply border-0 border-bluebell rounded-lg
 }
 
 .article-repo {

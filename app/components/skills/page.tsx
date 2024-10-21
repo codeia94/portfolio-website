@@ -1,5 +1,5 @@
 // import StackIcon from "tech-stack-icons"
-import { IconBrandHtml5, IconBrandCss3, IconBrandSass, IconBrandTypescript, IconBrandReact, IconBrandJavascript, IconBrandNextjs, IconBrandAws, IconBrandTailwind, IconBrandMysql, IconBrandNodejs, IconBrandGithub, IconBrandGit, IconApi} from '@tabler/icons-react';
+import { IconBrandHtml5, IconBrandCss3, IconBrandSass, IconBrandTypescript, IconBrandReact, IconBrandJavascript, IconBrandNextjs, IconBrandAws, IconBrandTailwind, IconBrandMysql, IconBrandNodejs, IconBrandGithub, IconBrandGit, IconApi, IconBrandVercel} from '@tabler/icons-react';
 
 export default function Skills () {
 
@@ -18,6 +18,7 @@ export default function Skills () {
 		{ icon: IconBrandGithub, name: 'GitHub', type: 'Tools' },
 		{ icon: IconBrandGit, name: 'Git', type: 'Tools' },
 		{ icon: IconApi, name: 'API', type: 'Back-end' },
+		{ icon: IconBrandVercel, name: 'Vercel', type: 'Back-end' }
 	];
 
 	const frontEndStacks = techStacks.filter(stack => stack.type === 'Front-end');
@@ -30,8 +31,8 @@ export default function Skills () {
 			<h1 className='title'>Tech Stacks</h1>
 			<div className='flex w-full justify-evenly md:flex-col md:w-3/4'>
 				<div className='flex flex-col md:flex-row md:items-center'>
-					<h2 className='text-center content-sub-text md:w-32 md:h-14 xs:text-lg sm:text-2xl'>Frontend</h2>
-					<div className='md:flex-row md:flex md:gap-6'>
+					<h2 className='content-sub-text md:w-32 md:h-14 xs:text-lg sm:text-xl'>Frontend</h2>
+					<div className='md:flex-row md:flex md:gap-6 md:pl-2'>
 						{frontEndStacks.map(({ icon: TechStackIcon, name }, index) => (
 							<div key={index} className='group flex flex-col items-center my-4'>
 								<TechStackIcon stroke={1.5} className='techstacks-icon'/>
@@ -41,8 +42,8 @@ export default function Skills () {
 					</div>
 				</div>
 				<div className='flex flex-col md:flex-row md:items-center'>
-					<h2 className='text-center content-sub-text md:w-32 md:h-14 xs:text-lg sm:text-2xl'>Backend</h2>
-					<div className='md:flex-row md:flex md:gap-6'>
+					<h2 className='content-sub-text md:w-32 md:h-14 xs:text-lg sm:text-xl'>Backend</h2>
+					<div className='md:flex-row md:flex md:gap-6 md:pl-2'>
 						{backEndStacks.map(({ icon: TechStackIcon, name}, index) => (
 							<div key={index} className='group flex flex-col items-center my-4'>
 								<TechStackIcon stroke={1.5} className='techstacks-icon' />
@@ -52,8 +53,8 @@ export default function Skills () {
 					</div>
 				</div>
 				<div className='flex flex-col md:flex-row md:items-center'>
-					<h2 className='text-center content-sub-text md:w-32 md:h-14 xs:text-lg sm:text-2xl'>Database</h2>
-					<div className='md:flex-row md:flex md:gap-6'>
+					<h2 className='content-sub-text md:w-32 md:h-14 xs:text-lg sm:text-xl'>Database</h2>
+					<div className='md:flex-row md:flex md:gap-6 md:pl-2'>
 						{databaseStacks.map(({ icon: TechStackIcon, name }, index) => (
 							<div key={index} className='group flex flex-col items-center my-4'>
 								<TechStackIcon stroke={1.5} className='techstacks-icon' />
@@ -63,8 +64,8 @@ export default function Skills () {
 					</div>
 				</div>
 				<div className='flex flex-col md:flex-row md:items-center'>
-					<h2 className='text-center content-sub-text md:w-32 md:h-14 xs:text-lg sm:text-2xl'>Tools</h2>
-					<div className='md:flex-row md:flex md:gap-6'>
+					<h2 className='content-sub-text md:w-32 md:h-14 xs:text-lg sm:text-xl'>Tools</h2>
+					<div className='md:flex-row md:flex md:gap-6 md:pl-2'>
 						{toolStacks.map(({ icon: TechStackIcon, name}, index) => (
 							<div key={index} className='group flex flex-col items-center my-4'>
 								<TechStackIcon stroke={1.5} className='techstacks-icon' />
