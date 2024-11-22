@@ -43,7 +43,7 @@ export default function HomePage() {
 			</div>
 			<div className='flex justify-center gap-6 sm:text-xl'>
 				<button>
-					<a href='/leia-resume.pdf' download type="button" className='flex items-center justify-center h-9 w-32 sm:h-12 sm:w-36 rounded-full bg-teal text-galaxyblack p-[1.5px] group relative overflow-hidden border-2 border-teal hover:text-teal'>
+					<a href='/leia-ooi-resume.pdf' download type="button" className='flex items-center justify-center h-9 w-32 sm:h-12 sm:w-36 rounded-full bg-teal text-galaxyblack p-[1.5px] group relative overflow-hidden border-2 border-teal hover:text-teal'>
 						<div className='absolute inset-0 bg-galaxyblack h-full w-full flex items-center justify-center transform scale-x-0 group-hover:scale-x-100 transition-transform duration-300 ease-linear origin-left'></div>
 						<span className='relative z-10 font-semibold '>Résumé</span>
 					</a>
